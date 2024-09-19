@@ -15,5 +15,12 @@
     <ProjectReference Include="..\Shared\CSMessagingApp.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 
 </Project>
