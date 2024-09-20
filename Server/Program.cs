@@ -1,4 +1,5 @@
 using CSMessagingApp.Server.Data;
+using CSMessagingApp.Server.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<MessageService>();
 
 //Configuring Authentication and Authorization
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
