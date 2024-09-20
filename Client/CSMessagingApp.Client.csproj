@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+    <PackageReference Include="Intersoft.Crosslight" Version="6.0.5000.975" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.33" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.33" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.33" PrivateAssets="all" />

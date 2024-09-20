@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMessagingApp.Server", "Server\CSMessagingApp.Server.csproj", "{99B78DBE-70A9-4BF1-A501-4200EFCF1414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMessagingApp.Server", "Server\CSMessagingApp.Server.csproj", "{99B78DBE-70A9-4BF1-A501-4200EFCF1414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMessagingApp.Client", "Client\CSMessagingApp.Client.csproj", "{6E609032-56F3-4CCE-A64A-8BB61398ED74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMessagingApp.Client", "Client\CSMessagingApp.Client.csproj", "{6E609032-56F3-4CCE-A64A-8BB61398ED74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSMessagingApp.Shared", "Shared\CSMessagingApp.Shared.csproj", "{9325961E-DDB8-484A-91F8-A97CA54052FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSMessagingApp.Shared", "Shared\CSMessagingApp.Shared.csproj", "{9325961E-DDB8-484A-91F8-A97CA54052FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
