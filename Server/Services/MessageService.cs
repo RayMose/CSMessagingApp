@@ -1,5 +1,6 @@
 ﻿using CSMessagingApp.Server.Data;
 using CSMessagingApp.Server.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CSMessagingApp.Server.Services
 {

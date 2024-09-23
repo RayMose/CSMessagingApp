@@ -2,7 +2,9 @@
 using System.Security.Claims;
 using System.Text;
 using CSMessagingApp.Server.Models;
+using CSMessagingApp.Server.Data;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
 
 public class AuthService
 {

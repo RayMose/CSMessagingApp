@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using CSMessagingApp.Server.Services;
+using CSMessagingApp.Shared.DTOs;
 
 namespace CSMessagingApp.Server.Controllers
 {
